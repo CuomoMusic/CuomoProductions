@@ -2,13 +2,13 @@
   "name": "chriscuomowebsite_2024",
   "version": "1.0.0",
   "description": "Chris_2024_Website",
-  "main": "index.js",
+  "main": "main.js",
   "homepage": "https//cuomomusic.github.io/ChrisCuomoWebsite_2024",
   
   "scripts": {
     "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive",
     
-    "deploy": "gh-pages -d ChrisCuomoWebsite_2024"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Chris Cuomo",
   "license": "MIT",

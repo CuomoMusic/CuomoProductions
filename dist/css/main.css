@@ -437,7 +437,7 @@ h4 {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .my-image {
       width: -webkit-fill-available;
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       width: 197px;
       height: 238px; }
@@ -497,7 +497,7 @@ h4 {
     height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .my-image {
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       background-size: cover;
       max-width: 41%;

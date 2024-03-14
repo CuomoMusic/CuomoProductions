@@ -230,7 +230,7 @@ main {
 
 .p-bio {
   font-family: handmade;
-  font-size: 2em; }
+  font-size: 2.5em; }
 
 .about-info {
   display: grid;
@@ -241,8 +241,8 @@ main {
 .bio-image,
 .bio-image1 {
   grid-area: bioimage;
-  height: 300px;
-  max-width: 300px;
+  max-width: 30vw;
+  max-height: 25vh;
   margin: inherit;
   margin-top: 24px; }
 
@@ -538,7 +538,7 @@ h4 {
     font-size: 0.9em;
     text-align: initial; }
   .p-bio {
-    font-size: 1.5em; }
+    font-size: 2em; }
   .projects {
     grid-template-columns: 1fr; }
   #home {

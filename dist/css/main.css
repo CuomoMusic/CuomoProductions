@@ -242,7 +242,7 @@ main {
 .bio-image1 {
   grid-area: bioimage;
   max-width: 30vw;
-  max-height: 25vh;
+  max-height: 30vh;
   margin: inherit;
   margin-top: 24px; }
 

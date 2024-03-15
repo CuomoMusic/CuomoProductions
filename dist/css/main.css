@@ -157,8 +157,9 @@ body {
   max-width: 36vw; }
 
 #CCdescription {
-  max-width: 34vw;
-  max-height: 34vh; }
+  margin-top: 1vh;
+  width: 76%;
+  height: auto; }
 
 h1,
 h2,
@@ -172,13 +173,12 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.5rem 0rem 0rem 0.5rem;
+    margin-bottom: 2vh;
     background: rgba(47, 47, 47, 0.3); }
 
 #h2-head {
   font-family: Kabel;
-  font-size: 2.5rem;
+  font-size: 3rem;
   display: grid;
   grid-gap: 20px;
   grid-template-areas: "img img img img";
@@ -241,8 +241,8 @@ main {
 .bio-image,
 .bio-image1 {
   grid-area: bioimage;
-  max-width: 30vw;
-  max-height: 30vh;
+  width: 50%;
+  height: auto;
   margin: inherit;
   margin-top: 24px; }
 
@@ -508,7 +508,7 @@ h4 {
   #ChrisCuomo {
     max-width: 70vw; }
   #email {
-    max-width: 100vw; }
+    max-width: 95vw; }
   .box-inputs {
     font-size: 0.8em; }
   #email-txt {

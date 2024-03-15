@@ -233,7 +233,6 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 20px;
   grid-template-areas: "bioimage bio bio bio" "bioimage1 bio bio bio";
   grid-template-columns: repeat(4, 2fr); }
 

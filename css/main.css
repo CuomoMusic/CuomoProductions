@@ -157,8 +157,9 @@ body {
   max-width: 36vw; }
 
 #CCdescription {
-  max-width: 34vw;
-  max-height: 34vh; }
+  margin-top: 1vh;
+  width: 70%;
+  height: auto; }
 
 h1,
 h2,
@@ -172,13 +173,11 @@ h3 {
   h1.sm-heading,
   h2.sm-heading,
   h3.sm-heading {
-    margin-bottom: 2rem;
-    padding: 0.5rem 0rem 0rem 0.5rem;
-    background: rgba(47, 47, 47, 0.3); }
+    background: rgba(47, 47, 47, 0.4); }
 
 #h2-head {
   font-family: Kabel;
-  font-size: 2.5rem;
+  font-size: 3rem;
   display: grid;
   grid-gap: 20px;
   grid-template-areas: "img img img img";
@@ -230,21 +229,23 @@ main {
 
 .p-bio {
   font-family: handmade;
-  font-size: 2em; }
+  font-size: 2.5em; }
 
 .about-info {
   display: grid;
-  grid-gap: 20px;
   grid-template-areas: "bioimage bio bio bio" "bioimage1 bio bio bio";
   grid-template-columns: repeat(4, 2fr); }
 
-.bio-image,
+.bio-image {
+  grid-area: bioimage;
+  width: 70%;
+  height: auto;
+  margin-top: 4vh; }
+
 .bio-image1 {
   grid-area: bioimage;
-  height: 300px;
-  max-width: 300px;
-  margin: inherit;
-  margin-top: 24px; }
+  width: 70%;
+  height: auto; }
 
 .bio {
   grid-area: bio; }
@@ -400,7 +401,8 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 2fr); }
     #h2-head img {
-      max-width: 70vw; }
+      max-width: 80vw;
+      height: auto; }
     #h2-head #music {
       max-width: 40vw; }
   .menu #gtr1 {
@@ -437,7 +439,7 @@ h4 {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .my-image {
       width: -webkit-fill-available;
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       width: 197px;
       height: 238px; }
@@ -452,7 +454,7 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 4fr); }
     #h2-head img {
-      max-width: 70vw; }
+      max-width: 80vw; }
     #h2-head #music {
       max-width: 40vw; }
   .menu #gtr1 {
@@ -497,7 +499,7 @@ h4 {
     height: 30vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .my-image {
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       background-size: cover;
       max-width: 41%;
@@ -508,7 +510,7 @@ h4 {
   #ChrisCuomo {
     max-width: 70vw; }
   #email {
-    max-width: 100vw; }
+    max-width: 95vw; }
   .box-inputs {
     font-size: 0.8em; }
   #email-txt {
@@ -538,7 +540,7 @@ h4 {
     font-size: 0.9em;
     text-align: initial; }
   .p-bio {
-    font-size: 1.5em; }
+    font-size: 2em; }
   .projects {
     grid-template-columns: 1fr; }
   #home {
@@ -558,6 +560,6 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 4fr); }
     #h2-head img {
-      max-width: 60vw; }
+      max-width: 80vw; }
     #h2-head #music {
       max-width: 30vw; } }

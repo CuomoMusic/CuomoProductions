@@ -33,7 +33,8 @@
   }
   #h2-head {
     img {
-      max-width: 70vw;
+      max-width: 80vw;
+      height: auto;
     }
     #music {
       max-width: 40vw;
@@ -103,7 +104,7 @@
 
     .my-image {
       width: -webkit-fill-available;
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       // background-size: cover;
       width: 197px;
@@ -126,7 +127,7 @@
   }
   #h2-head {
     img {
-      max-width: 70vw;
+      max-width: 80vw;
     }
     #music {
       max-width: 40vw;
@@ -218,7 +219,7 @@
 
     .my-image {
       // width: -webkit-fill-available;
-      background: url(../images/MeMain_2_Small.png);
+      background: url(../images/MeMain_3.png);
       background-repeat: no-repeat;
       background-size: cover;
       max-width: 41%;
@@ -235,7 +236,7 @@
     max-width: 70vw;
   }
   #email {
-    max-width: 100vw;
+    max-width: 95vw;
   }
   .box-inputs {
     font-size: 0.8em;
@@ -283,7 +284,7 @@
     text-align: initial;
   }
   .p-bio {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .projects {
@@ -314,7 +315,7 @@
   } */
   #h2-head {
     img {
-      max-width: 60vw;
+      max-width: 80vw;
     }
     #music {
       max-width: 30vw;

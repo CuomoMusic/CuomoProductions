@@ -32,10 +32,10 @@ body {
   max-width: 36vw;
 }
 #CCdescription {
-  margin-top: 1vh;
- width: 76%;
+margin-top: 1vh;
+ width: 70%;
  height: auto;
-  
+
 }
 // Headings
 h1,
@@ -49,9 +49,9 @@ h3 {
   }
 
   &.sm-heading {
-    margin-bottom: 2vh;
+    // margin-bottom: 2vh;
     // padding: 0.5rem 0rem 0rem 0.5rem;
-    background: rgba(lighten($primary-color, 2), 0.3);
+    background: rgba(lighten($primary-color, 2), 0.4);
     // border: darken($border-color, 30) 1px solid;
   }
 }
@@ -148,17 +148,25 @@ main {
   grid-template-columns: repeat(4, 2fr);
 }
 
-.bio-image,
-.bio-image1 {
+.bio-image {
   grid-area: bioimage;
-  width: 50%;
+  width: 70%;
   height: auto;
   /// height: 300px;
   /// max-width: 300px;
-  margin: inherit;
-  margin-top: 24px;
+  // margin: inherit;
+  margin-top: 4vh;
   // border-radius: 20%;
   // border: $border-color 3px solid;
+}
+.bio-image1 {
+  grid-area: bioimage;
+  width: 70%;
+  height: auto;
+  /// height: 300px;
+  /// max-width: 300px;
+  // margin: inherit;
+  // margin-top: 4vh;
 }
 
 .bio {

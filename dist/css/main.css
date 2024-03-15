@@ -402,7 +402,8 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 2fr); }
     #h2-head img {
-      max-width: 70vw; }
+      max-width: 80vw;
+      height: auto; }
     #h2-head #music {
       max-width: 40vw; }
   .menu #gtr1 {
@@ -454,7 +455,7 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 4fr); }
     #h2-head img {
-      max-width: 70vw; }
+      max-width: 80vw; }
     #h2-head #music {
       max-width: 40vw; }
   .menu #gtr1 {
@@ -560,6 +561,6 @@ h4 {
     grid-template-areas: "img" "img" "img" "img";
     grid-template-columns: repeat(1, 4fr); }
     #h2-head img {
-      max-width: 60vw; }
+      max-width: 80vw; }
     #h2-head #music {
       max-width: 30vw; } }

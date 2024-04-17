@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Chris_2024_Website",
   "main": "main.js",
-  "homepage": "https//cuomomusic.github.io/ChrisCuomoWebsite_2024",
+  "homepage": "https//cuomomusic.github.io/CuomoProductions",
   
   "scripts": {
     "sass": "node-sass -w dist/scss/ -o dist/css/ --recursive",

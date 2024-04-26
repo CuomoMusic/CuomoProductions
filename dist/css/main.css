@@ -210,7 +210,7 @@ main {
   main .icons {
     display: inline; }
     main .icons a {
-      padding: 0.5rem;
+      padding: 0.9rem;
       transition: all 0.7s ease-out; }
       main .icons a:hover {
         color: #9f1212; }

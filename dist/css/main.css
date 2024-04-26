@@ -203,17 +203,16 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 30px); }
   main .icons img {
-    max-width: 6vw;
+    display: block;
+    max-width: 7.3vw;
     height: auto;
-    margin-top: 1vh;
+    margin-top: 2.4vh;
     margin-bottom: 1vh; }
-  main .icons {
-    display: inline; }
-    main .icons a {
-      padding: .8rem;
-      transition: all 0.7s ease-out; }
-      main .icons a:hover {
-        color: #9f1212; }
+  main .icons a {
+    padding: .8rem;
+    transition: all 0.7s ease-out; }
+    main .icons a:hover {
+      color: #9f1212; }
   main .homeIcons {
     max-width: 4vw; }
     main .homeIcons:hover {

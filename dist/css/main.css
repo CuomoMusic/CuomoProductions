@@ -158,7 +158,8 @@ body {
 
 #CCdescription {
   margin-top: 1vh;
-  width: 70%;
+  margin-bottom: 1vh;
+  width: 65vw;
   height: auto; }
 
 h1,
@@ -201,10 +202,15 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 30px); }
+  main .icons img {
+    width: 10vw;
+    height: auto;
+    margin-top: 1vh;
+    margin-bottom: 1vh; }
   main .icons {
-    margin-top: 1rem; }
+    display: inline; }
     main .icons a {
-      padding: 0.4rem;
+      padding: 0.5rem;
       transition: all 0.7s ease-out; }
       main .icons a:hover {
         color: #9f1212; }

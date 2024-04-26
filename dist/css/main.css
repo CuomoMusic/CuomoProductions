@@ -203,14 +203,14 @@ main {
   padding: 4rem;
   min-height: calc(100vh - 30px); }
   main .icons img {
-    width: 10vw;
+    max-width: 6vw;
     height: auto;
     margin-top: 1vh;
     margin-bottom: 1vh; }
   main .icons {
     display: inline; }
     main .icons a {
-      padding: 0.9rem;
+      padding: .8rem;
       transition: all 0.7s ease-out; }
       main .icons a:hover {
         color: #9f1212; }
